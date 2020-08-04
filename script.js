@@ -1,4 +1,4 @@
-//create pin
+//pin create
 document.getElementById("createPin").addEventListener("click", function(){
     var creatPin = Math.round(1000+Math.random()*9000);
     document.getElementById("pin").value = creatPin;
@@ -39,7 +39,7 @@ function number(num){
             break;
     }
 }
-//clearScreen
+//screen clear
 document.getElementById("clear").addEventListener("click", function(){
     document.getElementById("inputPin").value = "";
 })
@@ -53,7 +53,7 @@ document.getElementById("clearSpace").addEventListener("click", function(){
         input.value = x;
     }
 })
-//pin mather function
+//pin matcher function
 document.getElementById("submit").addEventListener("click", function(){
     var input = document.getElementById("inputPin").value;
     var pin = document.getElementById("pin").value;
